@@ -2,6 +2,8 @@ package dao;
 
 import model.Person;
 
+import java.util.Arrays;
+
 public class PersonRepository {
     public static final int MAX_PERSONS = 100;
     private long nextId = 0;
@@ -13,5 +15,9 @@ public class PersonRepository {
         p.setId(++ nextId);
         persons[length++] = p;
         return p;
+    }
+
+    public Person[] findAll() {
+        return Arrays.copyOfRange(persons, 0, length);
     }
 }
