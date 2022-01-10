@@ -61,7 +61,7 @@ public class Person implements Comparable<Person> {  // extends Object by defaul
 
     @Override
     public String toString(){
-        return "ID: " + id + "\nName: " + name + "\nAge: " + age + "\n" + getCv() + "\n";
+        return "ID: " + id + "\nName: " + name + "\nAge: " + age + "\n" + getCv();
     }
 
     @Override
