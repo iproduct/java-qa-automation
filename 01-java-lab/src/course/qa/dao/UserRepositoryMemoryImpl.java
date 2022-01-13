@@ -3,6 +3,7 @@ package course.qa.dao;
 import course.qa.model.User;
 
 import java.util.Arrays;
+import java.util.Collection;
 
 public class UserRepositoryMemoryImpl implements UserRepository {
     public static final int MAX_USERS = 100;
@@ -38,8 +39,8 @@ public class UserRepositoryMemoryImpl implements UserRepository {
     }
 
     @Override
-    public User[] findAll() {
-        return Arrays.copyOfRange(users, 0, length);
+    public Collection<User> findAll() {
+        return Arrays.asList(Arrays.copyOfRange(users, 0, length));
     }
 
     @Override

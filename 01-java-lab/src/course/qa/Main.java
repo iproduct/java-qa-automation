@@ -16,7 +16,7 @@ public class Main {
         repo.create(new User("Maria", 25, "mary", "mary123",
                 new Role[]{Role.CLIENT, Role.ISSUER, Role.ADMIN}));
 
-        repo.deleteById(georgi.getId() );
+//        repo.deleteById(georgi.getId());
 
         for(User p: repo.findAll()) {
             System.out.println(p);
