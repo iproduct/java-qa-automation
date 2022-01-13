@@ -3,6 +3,7 @@ package course.qa.dao;
 import course.qa.model.Person;
 
 import java.util.Arrays;
+import java.util.Collection;
 
 public class PersonRepositoryMemoryImpl implements PersonRepository {
     public static final int MAX_PERSONS = 100;
@@ -38,8 +39,8 @@ public class PersonRepositoryMemoryImpl implements PersonRepository {
     }
 
     @Override
-    public Person[] findAll() {
-        return Arrays.copyOfRange(persons, 0, length);
+    public Collection<Person> findAll() {
+        return Arrays.asList(Arrays.copyOfRange(persons, 0, length));
     }
 
     @Override

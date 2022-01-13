@@ -4,40 +4,39 @@ import course.qa.model.User;
 
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-public class UserRepositoryHashMap implements UserRepository {
-    private Map<Long, User> entities = new HashMap<>();
-    private long nextId = 0;
+public class RepositoryHashMapImpl<K, V extends Identifiable<K>> implements Repository<K, V> {
+    private Map<K, V> entities = new HashMap<>();
+//    private long nextId = 0; //TODO
 
     @Override
-    public User create(User user) {
-        user.setId(++ nextId);
-        if(entities.putIfAbsent(user.getId(), user) == null) {
-            return user;
+    public V create(V entity) {
+//        entity.setId(++ nextId);
+        if(entities.putIfAbsent(entity.getId(), entity) == null) {
+            return entity;
         }else {
             return null;
         }
     }
 
     @Override
-    public User update(User user) {
+    public V update(V user) {
         return entities.replace(user.getId(), user);
     }
 
     @Override
-    public User deleteById(Long id) {
+    public V deleteById(K id) {
         return entities.remove(id);
     }
 
     @Override
-    public Collection<User> findAll() {
+    public Collection<V> findAll() {
         return entities.values();
     }
 
     @Override
-    public User findById(Long id) {
+    public V findById(K id) {
         return entities.get(id);
     }
 
