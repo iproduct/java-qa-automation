@@ -95,7 +95,7 @@ public class Main {
             publicationRepo.create(pub);
         }
         for (Publication pub: PUBLICATIONS ) {
-            System.out.println(pub);
+            System.out.println(pub.toString());
         }
 
 
