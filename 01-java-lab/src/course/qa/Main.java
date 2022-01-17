@@ -53,7 +53,24 @@ public class Main {
                             "fundamental libraries: java.lang, java.util, and, to a lesser extent, " +
                             "java.util.concurrent and java.io Simply put, Effective Java™, Second Edition, " +
                             "presents the most practical, authoritative guidelines available for writing efficient, " +
-                            "well-designed programs.")
+                            "well-designed programs."),
+            new Paper("Synthesizing Information Systems", "the APIS Project",
+                    "Benoît Fraikin, Frédéric Gervais, R. Laleau", 2007,
+                    "IEEE", "IEEE TENCON",
+                    "This article presents the main features of the APIS project that addresses " +
+                            "the rapid development of informationsystems from formal speciﬁcations. " +
+                            "Information systems arespeciﬁed using a trace-based formal language. " +
+                            "The se-quences of input events accepted by the system are describedwith a " +
+                            "process algebra; they represent the valid traces of theinformation system. " +
+                            "Entity types, associations and attributesare described using a class diagram and " +
+                            "computed by meansof recursive functions deﬁned on the valid traces of the system." +
+                            "In the APIS framework, three tools have been developed." +
+                            "Java program that executes a relationaldatabase transaction. " +
+                            "The synthesized transactions implementthe speciﬁcation of the information system’s " +
+                            "data structure andare used by the interpreter to update or query the database." +
+                            "The article also brings out the main future developments of theproject.", ""),
+            new Paper("J2EE framework perspective for security augmentation", "", "Pawan Kumar Verma", 2009,
+                    "IEEE", "IEEE TENCON", "", "pp.1-10")
             );
 
     public static void main(String[] args) {

@@ -14,14 +14,16 @@ public class Paper extends Publication {
         super(id);
     }
 
-    public Paper(String title, String subtitle, String authors, int year, String publisher, String publishedAt, String paperAbstract, String pages) {
+    public Paper(String title, String subtitle, String authors, int year, String publisher, String publishedAt,
+                 String paperAbstract, String pages) {
         super(title, subtitle, authors, year, publisher);
         this.publishedAt = publishedAt;
         this.paperAbstract = paperAbstract;
         this.pages = pages;
     }
 
-    public Paper(String title, String subtitle, String authors, int year, String publisher, String isbn, Set<String> keywords, String publishedAt, String paperAbstract, String pages) {
+    public Paper(String title, String subtitle, String authors, int year, String publisher, String isbn,
+                 Set<String> keywords, String publishedAt, String paperAbstract, String pages) {
         super(title, subtitle, authors, year, publisher, isbn, keywords);
         this.publishedAt = publishedAt;
         this.paperAbstract = paperAbstract;
