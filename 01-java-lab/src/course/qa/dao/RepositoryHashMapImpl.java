@@ -8,11 +8,15 @@ import java.util.Map;
 
 public class RepositoryHashMapImpl<K, V extends Identifiable<K>> implements Repository<K, V> {
     private Map<K, V> entities = new HashMap<>();
-//    private long nextId = 0; //TODO
+    private IdSequenceGenerator<K> idGen;
+
+    public RepositoryHashMapImpl(IdSequenceGenerator generator) {
+        idGen = generator;
+    }
 
     @Override
     public V create(V entity) {
-//        entity.setId(++ nextId);
+        entity.setId(idGen.getNextId());
         if(entities.putIfAbsent(entity.getId(), entity) == null) {
             return entity;
         }else {

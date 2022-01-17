@@ -1,10 +1,10 @@
 package course.qa.model;
 
-import java.util.Arrays;
-import java.util.EnumSet;
-import java.util.Set;
+import course.qa.dao.Identifiable;
 
-public class User extends Person {
+import java.util.Arrays;
+
+public class User extends Person implements Identifiable<Long> {
     private String username;
     private String password;
     private Role[] roles = { Role.CLIENT };
