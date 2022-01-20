@@ -4,7 +4,7 @@ import course.qa.dao.Identifiable;
 
 import java.util.Set;
 
-public class Publication implements Identifiable<Long> {
+public abstract class Publication implements Identifiable<Long>, Formatable {
     private Long id;
     private String title;
     private String subtitle;

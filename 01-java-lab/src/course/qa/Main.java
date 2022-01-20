@@ -2,6 +2,7 @@ package course.qa;
 
 import course.qa.dao.*;
 import course.qa.model.*;
+import course.qa.view.PublicationsView;
 
 import java.util.List;
 import java.util.Set;
@@ -55,7 +56,7 @@ public class Main {
                             "presents the most practical, authoritative guidelines available for writing efficient, " +
                             "well-designed programs."),
             new Paper("Synthesizing Information Systems", "the APIS Project",
-                    "Benoît Fraikin, Frédéric Gervais, R. Laleau", 2007,
+                    "Benoît Fraikin, Frederic Gervais, R. Laleau", 2007,
                     "IEEE", "IEEE TENCON",
                     "This article presents the main features of the APIS project that addresses " +
                             "the rapid development of informationsystems from formal speciﬁcations. " +
@@ -94,10 +95,9 @@ public class Main {
         for (Publication pub: PUBLICATIONS ) {
             publicationRepo.create(pub);
         }
-        for (Publication pub: PUBLICATIONS ) {
-            System.out.println(pub.toString());
-        }
 
+        PublicationsView pView = new PublicationsView();
+        pView.printPublications(publicationRepo.findAll());
 
     }
 }

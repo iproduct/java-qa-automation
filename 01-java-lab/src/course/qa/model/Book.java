@@ -69,4 +69,10 @@ public class Book extends Publication {
         sb.append('}');
         return sb.toString();
     }
+
+    @Override
+    public String format() {
+        return String.format("| %3d | %-15.15s |  %-15.15s |  %-20.20s | %4d | %-15.15s | %-6.6s |",
+                getId(), getTitle(), getSubtitle(), getAuthors(), getYear(), getKeywords(), "BOOK");
+    }
 }
