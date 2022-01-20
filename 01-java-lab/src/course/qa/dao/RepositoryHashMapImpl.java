@@ -14,6 +14,10 @@ public class RepositoryHashMapImpl<K, V extends Identifiable<K>> implements Repo
         idGen = generator;
     }
 
+    protected Map<K, V> getEntities() {
+        return entities;
+    }
+
     @Override
     public V create(V entity) {
         entity.setId(idGen.getNextId());
