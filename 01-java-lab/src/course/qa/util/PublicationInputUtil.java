@@ -16,12 +16,16 @@ public class PublicationInputUtil {
         while(true) {
             System.out.println("Choose publication type [1 - for Book, 2 - for Paper]: ");
             String ansStr = sc.nextLine();
-            int choice = Integer.parseInt(ansStr);
-            switch (choice) {
-                case 1: publication = new Book(); break while_choice;
-                case 2: publication = new Paper(); break while_choice;
-                default:
-                    System.out.println("Invalid choice. Please try again.");
+            try {
+                int choice = Integer.parseInt(ansStr);
+                switch (choice) {
+                    case 1: publication = new Book(); break while_choice;
+                    case 2: publication = new Paper(); break while_choice;
+                    default:
+                        System.out.println("Invalid choice. Please try again.");
+                }
+            } catch (NumberFormatException ex){
+                System.out.println("Invalid number. Please try again.");
             }
         }
 
