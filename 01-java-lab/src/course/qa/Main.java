@@ -2,6 +2,7 @@ package course.qa;
 
 import course.qa.dao.*;
 import course.qa.model.*;
+import course.qa.util.PublicationInputUtil;
 import course.qa.view.PublicationsView;
 
 import java.util.List;
@@ -98,6 +99,11 @@ public class Main {
 
         PublicationsView pView = new PublicationsView();
         pView.printPublications(publicationRepo.findAll());
+
+        // test PublicationInputUtil
+        System.out.println();
+        Publication pub = PublicationInputUtil.inputNewPublication();
+        System.out.println(pub.format());
 
     }
 }
