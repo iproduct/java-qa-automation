@@ -7,6 +7,7 @@ import course.qa.model.User;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class PublicationInputUtil {
     public static Publication inputNewPublication() {
@@ -76,6 +77,24 @@ public class PublicationInputUtil {
             }
         }
 
+        while(true) {
+            System.out.println("Input year (4 digits): ");
+            String ansStr = sc.nextLine();
+            if(Pattern.matches("\\d{4}", ansStr)) {
+                try {
+                    int year = Integer.parseInt(ansStr);
+                    publication.setYear(year);
+                    break;
+                } catch (NumberFormatException ex){
+                    System.out.println("Invalid year. Please try again.");
+                }
+            } else {
+                System.out.println("Invalid title. Please try again.");
+            }
+        }
+
         return publication;
     }
+
+
 }
