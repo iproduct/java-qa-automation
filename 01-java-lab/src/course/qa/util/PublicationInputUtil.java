@@ -5,6 +5,7 @@ import course.qa.model.Paper;
 import course.qa.model.Publication;
 import course.qa.model.User;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class PublicationInputUtil {
@@ -37,6 +38,41 @@ public class PublicationInputUtil {
                 break;
             } else {
                 System.out.println("Invalid title. Please try again.");
+            }
+        }
+
+        while(true) {
+            System.out.println("Input subtitle (0-80 characters): ");
+            String ansStr = sc.nextLine();
+            if(ansStr.length() <= 80) {
+                publication.setSubtitle(ansStr);
+                break;
+            } else {
+                System.out.println("Invalid subtitle. Please try again.");
+            }
+        }
+
+        while_authors:
+        while(true) {
+            System.out.println("Input authors (comma separated): ");
+            String ansStr = sc.nextLine();
+            String[] authorStrings = ansStr.split("\\s*,\\s*");
+            if(authorStrings.length >= 1) {
+                StringBuilder sb = new StringBuilder();
+                int index = 0;
+                for (String authorStr : authorStrings) {
+                    authorStr = authorStr.trim();
+                    if(authorStr.length() < 2) {
+                        System.out.println("Invalid author name. Please input authors again.");
+                        continue while_authors;
+                    }
+                    sb.append(index > 0 ? ", " : ""). append(authorStr);
+                    index++;
+                }
+                publication.setAuthors(sb.toString());
+                break;
+            } else {
+                System.out.println("Invalid subtitle. Please try again.");
             }
         }
 
