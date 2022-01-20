@@ -2,11 +2,10 @@ package course.qa.dao;
 
 import course.qa.model.Publication;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
+import java.io.*;
+import java.util.Collection;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class PersistentRepositoryFileImpl<K, V extends Identifiable<K>>
         extends RepositoryHashMapImpl<K, V> implements PersistentRepository<K, V>{
@@ -22,7 +21,7 @@ public class PersistentRepositoryFileImpl<K, V extends Identifiable<K>>
                 new FileInputStream(PUBLICATION_DB_FILE))) {
             Object dataObj = ois.readObject();
             if(dataObj instanceof List){
-                List<V> items = (List<V>) dataObj;
+                Collection<V> items = (Collection<V>) dataObj;
                 for(V item : items) {
                     getEntities().put(item.getId(), item);
                 }
@@ -40,6 +39,16 @@ public class PersistentRepositoryFileImpl<K, V extends Identifiable<K>>
 
     @Override
     public void save() {
+        try(ObjectOutputStream ois = new ObjectOutputStream(
+                new FileOutputStream(PUBLICATION_DB_FILE))) {
+            ois.writeObject(getEntities().values());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally{
+            System.out.println("Done reading publications.");
+        }
 
     }
 }
