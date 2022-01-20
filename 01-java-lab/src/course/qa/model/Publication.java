@@ -2,9 +2,10 @@ package course.qa.model;
 
 import course.qa.dao.Identifiable;
 
+import java.io.Serializable;
 import java.util.Set;
 
-public abstract class Publication implements Identifiable<Long>, Formatable {
+public abstract class Publication implements Identifiable<Long>, Formatable, Serializable {
     private Long id;
     private String title;
     private String subtitle;

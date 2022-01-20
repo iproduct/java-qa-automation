@@ -3,6 +3,7 @@ package course.qa.dao;
 import course.qa.model.Publication;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Stream;
@@ -22,8 +23,9 @@ public class PersistentRepositoryFileImpl<K, V extends Identifiable<K>>
             Object dataObj = ois.readObject();
             if(dataObj instanceof List){
                 Collection<V> items = (Collection<V>) dataObj;
+                getEntities().clear();
                 for(V item : items) {
-                    getEntities().put(item.getId(), item);
+                    create(item);
                 }
             }
         } catch (FileNotFoundException e) {
@@ -41,7 +43,7 @@ public class PersistentRepositoryFileImpl<K, V extends Identifiable<K>>
     public void save() {
         try(ObjectOutputStream ois = new ObjectOutputStream(
                 new FileOutputStream(PUBLICATION_DB_FILE))) {
-            ois.writeObject(getEntities().values());
+            ois.writeObject(new ArrayList(getEntities().values()));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

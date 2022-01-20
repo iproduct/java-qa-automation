@@ -92,10 +92,12 @@ public class Main {
         }
 
         // publications
-        Repository<Long, Publication> publicationRepo = new RepositoryHashMapImpl<>(new LongSequenceGenerator());
+        PersistentRepository<Long, Publication> publicationRepo = new PersistentRepositoryFileImpl<>(new LongSequenceGenerator());
         for (Publication pub: PUBLICATIONS ) {
             publicationRepo.create(pub);
         }
+
+        publicationRepo.load();
 
         PublicationsView pView = new PublicationsView();
         pView.printPublications(publicationRepo.findAll());
@@ -104,6 +106,9 @@ public class Main {
         System.out.println();
         Publication pub = PublicationInputUtil.inputNewPublication();
         System.out.println(pub.format());
+        publicationRepo.create(pub);
+
+        publicationRepo.save();
 
     }
 }

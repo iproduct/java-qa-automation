@@ -1,9 +1,10 @@
 package course.qa.model;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Set;
 
-public class Book extends Publication {
+public class Book extends Publication implements Serializable {
     private CoverType cover;
     private int numberPages;
     private String description;

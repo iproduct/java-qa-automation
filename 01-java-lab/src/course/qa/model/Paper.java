@@ -1,8 +1,9 @@
 package course.qa.model;
 
+import java.io.Serializable;
 import java.util.Set;
 
-public class Paper extends Publication {
+public class Paper extends Publication implements Serializable {
     private String publishedAt;
     private String paperAbstract;
     private String pages;
