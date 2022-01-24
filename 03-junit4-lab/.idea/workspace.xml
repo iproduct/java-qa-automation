@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../01-java-lab/publications.db" beforeDir="false" afterPath="$PROJECT_DIR$/../01-java-lab/publications.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-java-lab/src/course/qa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01-java-lab/src/course/qa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/course/javaqa/gcd/GcdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/gcd/GcdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/Course_Java_QA_Automation_2022_Proxiad.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.23772103" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.ArithmeticUtilityTests">
+  <component name="RunManager" selected="JUnit.GcdTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -162,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArithmeticUtilityTests" />
         <item itemvalue="JUnit.GcdTest" />
+        <item itemvalue="JUnit.ArithmeticUtilityTests" />
         <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionRule" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" />
@@ -178,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643040597183</updated>
-      <workItem from="1643040599836" duration="8837000" />
+      <workItem from="1643040599836" duration="9174000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -194,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643049911890</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GCD parameterized tests added">
+      <created>1643050343285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643050343285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calculator unit tests added" />
     <MESSAGE value="GCD tests added" />
-    <option name="LAST_COMMIT_MESSAGE" value="GCD tests added" />
+    <MESSAGE value="GCD parameterized tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="GCD parameterized tests added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/03_junit4_lab$ArithmeticUtilityTests.ic" NAME="ArithmeticUtilityTests Coverage Results" MODIFIED="1643049747893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

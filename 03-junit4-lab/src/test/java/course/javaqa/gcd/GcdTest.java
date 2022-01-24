@@ -39,17 +39,17 @@ public class GcdTest {
 
     private Gcd gcd = new Gcd();
 
-    @Test
-    @Ignore
-    public void givenXandY_whenGcd_thenGcdXandY() {
-        assertEquals("Regular X and Y numbers", 14, gcd.gcd(42, 28));
-        assertEquals("Regular X and Y prime number", 1, gcd.gcd(55, 17));
-        assertEquals("Regular X and Y divides X", 7, gcd.gcd(42, 7));
-        assertEquals("Regular Y and X divides Y", 7, gcd.gcd(7, 42));
-    }
+//    @Test
+//    @Ignore
+//    public void givenXandY_whenGcd_thenGcdXandY() {
+//        assertEquals("Regular X and Y numbers", 14, gcd.gcd(42, 28));
+//        assertEquals("Regular X and Y prime number", 1, gcd.gcd(55, 17));
+//        assertEquals("Regular X and Y divides X", 7, gcd.gcd(42, 7));
+//        assertEquals("Regular Y and X divides Y", 7, gcd.gcd(7, 42));
+//    }
 
     @Test
-    public void testGreatestCommonDenominator() {
+    public void givenXandY_whenGcd_thenGcdXandY() {
         int result = gcd.gcd(numberA, numberB);
         assertEquals(expected, result);
     }
