@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/javaqa/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/javaqa/gcd/Gcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/ArithmeticUtilityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/gcd/GcdTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../01-java-lab/publications.db" beforeDir="false" afterPath="$PROJECT_DIR$/../01-java-lab/publications.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../01-java-lab/src/course/qa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01-java-lab/src/course/qa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/Course_Java_QA_Automation_2022_Proxiad.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +59,25 @@
     <property name="project.structure.side.proportion" value="0.23772103" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.ArithmeticUtilityTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticUtilityTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-junit4-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.javaqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course.javaqa" />
+      <option name="MAIN_CLASS_NAME" value="course.javaqa.ArithmeticUtilityTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,23 +93,6 @@
       <option name="PACKAGE_NAME" value="course.javaqa.calculator" />
       <option name="MAIN_CLASS_NAME" value="course.javaqa.calculator.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-junit4-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course.javaqa.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="course.javaqa.calculator" />
-      <option name="MAIN_CLASS_NAME" value="course.javaqa.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="givenXandZeroDivider_whenDivide_thenArithmeticException" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.givenXandZeroDivider_whenDivide_thenDivisionByZeroException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionRule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="03-junit4-lab" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +125,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="course.javaqa.calculator" />
       <option name="MAIN_CLASS_NAME" value="course.javaqa.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="givenXandZeroDivider_whenDivide_thenDivisionByZeroException" />
+      <option name="METHOD_NAME" value="givenXandZeroDivider_whenDivide_thenArithmeticExceptionRule" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GcdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-junit4-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.javaqa.gcd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course.javaqa.gcd" />
+      <option name="MAIN_CLASS_NAME" value="course.javaqa.gcd.GcdTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,10 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArithmeticUtilityTests" />
+        <item itemvalue="JUnit.GcdTest" />
+        <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionRule" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" />
-        <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticException" />
-        <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenDivisionByZeroException" />
       </list>
     </recent_temporary>
   </component>
@@ -171,12 +182,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643040597183</updated>
-      <workItem from="1643040599836" duration="6491000" />
+      <workItem from="1643040599836" duration="8387000" />
     </task>
+    <task id="LOCAL-00001" summary="Calculator unit tests added">
+      <created>1643047885988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643047885988</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Calculator unit tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator unit tests added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/03_junit4_lab$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1643043631595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

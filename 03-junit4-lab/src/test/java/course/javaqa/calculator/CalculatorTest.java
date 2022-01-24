@@ -2,6 +2,7 @@ package course.javaqa.calculator;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.*;
+import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
@@ -12,6 +13,9 @@ import static org.junit.Assert.assertThrows;
 @Slf4j
 public class CalculatorTest {
     private Calculator calculator;
+
+    @Rule
+    public ExpectedException exception = ExpectedException.none();
 
     @BeforeClass
     public static void beforeAll() {
@@ -80,6 +84,15 @@ public class CalculatorTest {
         //test and verify exception is thrown
         assertThrows("Should throw division by zero ArithmenticException",
                 ArithmeticException.class, () -> calculator.divide(42, 0));
+    }
+
+    @Test
+    public void givenXandZeroDivider_whenDivide_thenArithmeticExceptionRule() {
+        log.info("Testing divide by zero divider using Rule to verify exception message");
+        exception.expect(ArithmeticException.class);
+        exception.expectMessage("/ by zero");
+        //test and verify exception is thrown
+        calculator.divide(42, 0);
     }
 
 }
