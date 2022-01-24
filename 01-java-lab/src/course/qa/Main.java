@@ -93,9 +93,9 @@ public class Main {
 
         // publications
         PersistentRepository<Long, Publication> publicationRepo = new PersistentRepositoryFileImpl<>(new LongSequenceGenerator());
-        for (Publication pub: PUBLICATIONS ) {
-            publicationRepo.create(pub);
-        }
+//        for (Publication pub: PUBLICATIONS ) {
+//            publicationRepo.create(pub);
+//        }
 
         publicationRepo.load();
 

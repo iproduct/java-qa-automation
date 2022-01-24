@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/javaqa/gcd/Gcd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/ArithmeticUtilityTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/gcd/GcdTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../01-java-lab/publications.db" beforeDir="false" afterPath="$PROJECT_DIR$/../01-java-lab/publications.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../01-java-lab/src/course/qa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01-java-lab/src/course/qa/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/course/javaqa/gcd/GcdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/gcd/GcdTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/Course_Java_QA_Automation_2022_Proxiad.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643040597183</updated>
-      <workItem from="1643040599836" duration="8387000" />
+      <workItem from="1643040599836" duration="8837000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -191,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643047885988</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="GCD tests added">
+      <created>1643049911890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643049911890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,9 +202,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calculator unit tests added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator unit tests added" />
+    <MESSAGE value="GCD tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="GCD tests added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/03_junit4_lab$ArithmeticUtilityTests.ic" NAME="ArithmeticUtilityTests Coverage Results" MODIFIED="1643049747893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>course.javaqa.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/03_junit4_lab$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1643043631595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>course.javaqa.calculator.*</FILTER>
     </SUITE>
