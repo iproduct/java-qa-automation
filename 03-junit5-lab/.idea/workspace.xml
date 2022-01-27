@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../03-junit4-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit4-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643040597183</updated>
       <workItem from="1643040599836" duration="9732000" />
-      <workItem from="1643297869396" duration="1624000" />
+      <workItem from="1643297869396" duration="3370000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643050469088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all converted to JUnit 5 Jupiter">
+      <created>1643299620783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643299620783</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +225,8 @@
     <MESSAGE value="Calculator unit tests added" />
     <MESSAGE value="GCD tests added" />
     <MESSAGE value="GCD parameterized tests added" />
-    <option name="LAST_COMMIT_MESSAGE" value="GCD parameterized tests added" />
+    <MESSAGE value="all converted to JUnit 5 Jupiter" />
+    <option name="LAST_COMMIT_MESSAGE" value="all converted to JUnit 5 Jupiter" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
