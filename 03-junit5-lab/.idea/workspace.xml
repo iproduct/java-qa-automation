@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-junit4-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit4-lab/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -40,7 +43,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
@@ -52,7 +54,7 @@
     <property name="project.structure.side.proportion" value="0.23772103" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.GcdTest.givenXandY_whenGcd_thenGcdXandY">
+  <component name="RunManager" selected="JUnit.GcdTest (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -75,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-junit4-lab" />
+    <configuration name="CalculatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-junit5-lab" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="course.javaqa.calculator.*" />
@@ -91,18 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionRule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-junit4-lab" />
+    <configuration name="GcdTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-junit5-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course.javaqa.calculator.*" />
+          <option name="PATTERN" value="course.javaqa.gcd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="course.javaqa.calculator" />
-      <option name="MAIN_CLASS_NAME" value="course.javaqa.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="givenXandZeroDivider_whenDivide_thenArithmeticExceptionRule" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="course.javaqa.gcd" />
+      <option name="MAIN_CLASS_NAME" value="course.javaqa.gcd.GcdTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GcdTest (1)" />
+        <item itemvalue="JUnit.CalculatorTest (1)" />
         <item itemvalue="JUnit.GcdTest.givenXandY_whenGcd_thenGcdXandY" />
         <item itemvalue="JUnit.GcdTest" />
         <item itemvalue="JUnit.ArithmeticUtilityTests" />
-        <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionRule" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643040597183</updated>
       <workItem from="1643040599836" duration="9732000" />
-      <workItem from="1643297693999" duration="173000" />
+      <workItem from="1643297869396" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -217,6 +218,9 @@
     <MESSAGE value="GCD tests added" />
     <MESSAGE value="GCD parameterized tests added" />
     <option name="LAST_COMMIT_MESSAGE" value="GCD parameterized tests added" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/03_junit4_lab$ArithmeticUtilityTests.ic" NAME="ArithmeticUtilityTests Coverage Results" MODIFIED="1643049747893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
