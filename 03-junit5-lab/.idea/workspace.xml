@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/IdSequenceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/LongSequenceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersistentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersistentRepositoryFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersonRepositoryMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/RepositoryHashMapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/UserRepositoryHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/UserRepositoryMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/CoverType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Formatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Publication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/util/PublicationInputUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/view/PublicationsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/course/javaqa/ArithmeticUtilityTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/ArithmeticUtilityTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +69,26 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/course" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16207455" />
     <property name="project.structure.side.proportion" value="0.23772103" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CourseJavaQA\git\java-qa-automation\03-junit5-lab\src\main\java\course" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="course.qa.dao" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.ArithmeticUtilityTests (1)">
     <configuration default="true" type="Application" factoryName="Application">
@@ -179,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643040597183</updated>
       <workItem from="1643040599836" duration="9732000" />
-      <workItem from="1643297869396" duration="5146000" />
+      <workItem from="1643297869396" duration="5947000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -223,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643301279749</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="suite demo with junit5">
+      <created>1643303497571</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643303497571</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +276,8 @@
     <MESSAGE value="GCD parameterized tests added" />
     <MESSAGE value="all converted to JUnit 5 Jupiter" />
     <MESSAGE value="pom.xml versions updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml versions updated" />
+    <MESSAGE value="suite demo with junit5" />
+    <option name="LAST_COMMIT_MESSAGE" value="suite demo with junit5" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
