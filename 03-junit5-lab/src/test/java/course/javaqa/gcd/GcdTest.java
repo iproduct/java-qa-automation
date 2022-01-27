@@ -1,8 +1,9 @@
 package course.javaqa.gcd;
 
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -50,5 +51,19 @@ public class GcdTest {
 //        assertEquals(expected, result);
 //    }
 
-
+    @ParameterizedTest(name = "#{index} - Test with Argument={0}")
+    @ValueSource(ints = {9, 27, 45})
+    public void given72andX_whenGcd_thenGcdEquals9(int x) {
+        int actual = gcd.gcd(x, 72);
+        assertEquals(9, actual);
+    }
 }
+
+
+
+
+
+
+
+
+

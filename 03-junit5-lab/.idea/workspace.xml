@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/IdSequenceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/LongSequenceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersistentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersistentRepositoryFileImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersonRepositoryMemoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/RepositoryHashMapImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/UserRepositoryHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/UserRepositoryMemoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/CoverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Formatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Paper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Publication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/util/PublicationInputUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/view/PublicationsView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/course/javaqa/gcd/GcdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/gcd/GcdTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +40,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -74,13 +50,14 @@
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTest.java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16207455" />
     <property name="project.structure.side.proportion" value="0.23772103" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTest.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,30 +67,14 @@
       <recent name="course.qa.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArithmeticUtilityTests (1)">
+  <component name="RunManager" selected="JUnit.GcdTest.given72andX_whenGcd_thenGcdEquals9">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArithmeticUtilityTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-junit5-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course.javaqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="course.javaqa" />
-      <option name="MAIN_CLASS_NAME" value="course.javaqa.ArithmeticUtilityTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="03-junit5-lab" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +84,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="course.javaqa.calculator" />
       <option name="MAIN_CLASS_NAME" value="course.javaqa.calculator.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GcdTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GcdTest.given72andX_whenGcd_thenGcdEquals9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="03-junit5-lab" />
       <extension name="coverage">
         <pattern>
@@ -139,39 +101,57 @@
       </extension>
       <option name="PACKAGE_NAME" value="course.javaqa.gcd" />
       <option name="MAIN_CLASS_NAME" value="course.javaqa.gcd.GcdTest" />
+      <option name="METHOD_NAME" value="given72andX_whenGcd_thenGcdEquals9(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryHashMapImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-junit5-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.qa.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course.qa.dao" />
+      <option name="MAIN_CLASS_NAME" value="course.qa.dao.RepositoryHashMapImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GcdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-junit4-lab" />
+    <configuration name="RepositoryHashMapImplTest.assumptionThat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-junit5-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course.javaqa.gcd.*" />
+          <option name="PATTERN" value="course.qa.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="course.javaqa.gcd" />
-      <option name="MAIN_CLASS_NAME" value="course.javaqa.gcd.GcdTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="course.qa.dao" />
+      <option name="MAIN_CLASS_NAME" value="course.qa.dao.RepositoryHashMapImplTest" />
+      <option name="METHOD_NAME" value="assumptionThat" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GcdTest.givenXandY_whenGcd_thenGcdXandY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-junit4-lab" />
+    <configuration name="RepositoryHashMapImplTest.givenValidMultipleUsersInRepository_whenFindAll_thenShouldReturnAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-junit5-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course.javaqa.gcd.*" />
+          <option name="PATTERN" value="course.qa.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="course.javaqa.gcd" />
-      <option name="MAIN_CLASS_NAME" value="course.javaqa.gcd.GcdTest" />
-      <option name="METHOD_NAME" value="givenXandY_whenGcd_thenGcdXandY" />
+      <option name="PACKAGE_NAME" value="course.qa.dao" />
+      <option name="MAIN_CLASS_NAME" value="course.qa.dao.RepositoryHashMapImplTest" />
+      <option name="METHOD_NAME" value="givenValidMultipleUsersInRepository_whenFindAll_thenShouldReturnAllUsers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -196,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArithmeticUtilityTests (1)" />
-        <item itemvalue="JUnit.GcdTest (1)" />
-        <item itemvalue="JUnit.CalculatorTest (1)" />
-        <item itemvalue="JUnit.GcdTest.givenXandY_whenGcd_thenGcdXandY" />
-        <item itemvalue="JUnit.GcdTest" />
+        <item itemvalue="JUnit.GcdTest.given72andX_whenGcd_thenGcdEquals9" />
+        <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" />
+        <item itemvalue="JUnit.RepositoryHashMapImplTest" />
+        <item itemvalue="JUnit.RepositoryHashMapImplTest.assumptionThat" />
+        <item itemvalue="JUnit.RepositoryHashMapImplTest.givenValidMultipleUsersInRepository_whenFindAll_thenShouldReturnAllUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643040597183</updated>
       <workItem from="1643040599836" duration="9732000" />
-      <workItem from="1643297869396" duration="5947000" />
+      <workItem from="1643297869396" duration="10693000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -264,7 +244,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643303497571</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="user management feature added">
+      <created>1643304330432</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643304330432</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create User test case added">
+      <created>1643305462338</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643305462338</updated>
+    </task>
+    <task id="LOCAL-00010" summary="AssertJ matchers demo added, assumptions demo added">
+      <created>1643308140627</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643308140627</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +278,10 @@
     <MESSAGE value="all converted to JUnit 5 Jupiter" />
     <MESSAGE value="pom.xml versions updated" />
     <MESSAGE value="suite demo with junit5" />
-    <option name="LAST_COMMIT_MESSAGE" value="suite demo with junit5" />
+    <MESSAGE value="user management feature added" />
+    <MESSAGE value="create User test case added" />
+    <MESSAGE value="AssertJ matchers demo added, assumptions demo added" />
+    <option name="LAST_COMMIT_MESSAGE" value="AssertJ matchers demo added, assumptions demo added" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -288,6 +292,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/03_junit4_lab$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1643043631595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>course.javaqa.calculator.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/03_junit5_lab$RepositoryHashMapImplTest_givenValidMultipleUsersInRepository_whenFindAll_thenShouldReturnAllUsers.ic" NAME="RepositoryHashMapImplTest.givenValidMultipleUsersInRepository_whenFindAll_thenShouldReturnAllUsers Coverage Results" MODIFIED="1643307388533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>course.qa.dao.*</FILTER>
     </SUITE>
   </component>
 </project>
