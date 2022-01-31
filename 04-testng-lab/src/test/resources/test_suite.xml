@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suiteXmlFiles>
+    <suiteXmlFile>
+        src/test/resources/parametrized_test.xml
+    </suiteXmlFile>
+    <suiteXmlFile>
+        src/test/resources/registration_test.xml
+    </suiteXmlFile>
+</suiteXmlFiles>
