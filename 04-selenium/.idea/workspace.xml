@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9297f3d-9554-4d99-bb0b-0109f8fc83b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/test/resources/test_suite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docs/IPT_Intermediate_Java_2020_4_2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-selenium-lab/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-selenium-lab/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-testng-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-testng-lab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-testng-lab/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

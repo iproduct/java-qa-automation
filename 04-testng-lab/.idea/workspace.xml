@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebee0382-29df-4b40-9c8e-e46cd79ab7e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test_group_regression.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/ParameterizedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/ParameterizedTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/test_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test_suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test_suite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +190,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643645251123</updated>
-      <workItem from="1643645252350" duration="5682000" />
+      <workItem from="1643645252350" duration="5821000" />
     </task>
     <task id="LOCAL-00001" summary="testng project initial commit">
       <created>1643647140260</created>
@@ -225,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643650097770</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="testng parallel tests configured">
+      <created>1643651495124</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643651495124</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +238,7 @@
     <MESSAGE value="testng project initial commit" />
     <MESSAGE value="testng test suit xml added" />
     <MESSAGE value="testng test group xml added" />
-    <option name="LAST_COMMIT_MESSAGE" value="testng test group xml added" />
+    <MESSAGE value="testng parallel tests configured" />
+    <option name="LAST_COMMIT_MESSAGE" value="testng parallel tests configured" />
   </component>
 </project>
