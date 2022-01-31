@@ -1,13 +1,16 @@
 package course.javaqa.calculator;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import static org.testng.Assert.assertEquals;
 
 public class ParameterizedTests {
     private Calculator calculator;
+
+    @DataProvider(name = "numbers")
+    public static Object[][] calculatorData() {
+        return new Object[][]{{12, 5, 60}, {-3, 7, -21}, {0, 17, 0}};
+    }
 
     @BeforeClass
     public void setup() {
@@ -19,9 +22,15 @@ public class ParameterizedTests {
         calculator = null;
     }
 
-    @Test
-    public void givenTwoNumbers_whenMultiply_thenProduct() {
-        assertEquals(calculator.multiply(6, 8), 48, "6 * 8 == 48");
+    @Test //(enabled = false)
+    @Parameters({"x", "y", "result"})
+    public void givenTwoNumbers_whenMultiply_thenProduct(int x, int y, int result) {
+        assertEquals(calculator.multiply(x, y), result, x +" * " + y + " == " + result);
+    }
+
+    @Test(dataProvider = "numbers")
+    public void givenTwoNumberParams_whenMultiply_thenProductResult(int x, int y, int result) {
+        assertEquals(calculator.multiply(x, y), result, x +" * " + y + " == " + result);
     }
 
 }

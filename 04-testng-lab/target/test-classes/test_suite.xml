@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="suite">
+<suite name="suite" parallel="methods" thread-count="6">
     <test name="test suite">
         <classes>
-            <class name="course.javaqa.calculator.CalculatorTests" />
-            <class name="course.javaqa.calculator.ParameterizedTests" />
+            <class name="course.javaqa.calculator.CalculatorTests"/>
+        </classes>
+    </test>
+    <test name="parameterized tests">
+        <parameter name="x" value="9" />
+        <parameter name="y" value="7" />
+        <parameter name="result" value="63" />
+        <classes>
+            <class name="course.javaqa.calculator.ParameterizedTests"/>
         </classes>
     </test>
 </suite>

@@ -5,46 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebee0382-29df-4b40-9c8e-e46cd79ab7e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/ParameterizedTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test_group_regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2022-01-31T19-15-21_828-jvmRun1.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-course.javaqa.calculator.CalculatorTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-course.javaqa.calculator.ParameterizedTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/test suite.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/suite/test suite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/suite/test suite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test_suite_regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test_group_regression.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/CalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/CalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/ParameterizedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/ParameterizedTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/test_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test_suite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test_suite.xml" afterDir="false" />
     </list>
@@ -105,7 +70,7 @@
       <recent name="course.javaqa.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/CourseJavaQA/git/java-qa-automation/04-testng-lab/src/test/resources/test_group_regression.xml">
+  <component name="RunManager" selected="TestNG.D:/CourseJavaQA/git/java-qa-automation/04-testng-lab/src/test/resources/test_suite.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -214,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/CourseJavaQA/git/java-qa-automation/04-testng-lab/src/test/resources/test_group_regression.xml" />
         <item itemvalue="TestNG.D:/CourseJavaQA/git/java-qa-automation/04-testng-lab/src/test/resources/test_suite.xml" />
+        <item itemvalue="TestNG.D:/CourseJavaQA/git/java-qa-automation/04-testng-lab/src/test/resources/test_group_regression.xml" />
         <item itemvalue="Maven.04-testng-lab [install:install]" />
         <item itemvalue="TestNG.CalculatorTests" />
         <item itemvalue="TestNG.CalculatorTests.givenTwoNumbers_whenMultiply_thenProduct" />
@@ -230,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643645251123</updated>
-      <workItem from="1643645252350" duration="4108000" />
+      <workItem from="1643645252350" duration="5682000" />
     </task>
     <task id="LOCAL-00001" summary="testng project initial commit">
       <created>1643647140260</created>
@@ -253,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643648768073</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testng test group xml added">
+      <created>1643650097770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643650097770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +235,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="testng project initial commit" />
     <MESSAGE value="testng test suit xml added" />
-    <option name="LAST_COMMIT_MESSAGE" value="testng test suit xml added" />
+    <MESSAGE value="testng test group xml added" />
+    <option name="LAST_COMMIT_MESSAGE" value="testng test group xml added" />
   </component>
 </project>
