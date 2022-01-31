@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebee0382-29df-4b40-9c8e-e46cd79ab7e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/javaqa/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/javaqa/gcd/Gcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/IdSequenceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/LongSequenceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersistentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersistentRepositoryFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/PersonRepositoryMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/RepositoryHashMapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/UserRepositoryHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/dao/UserRepositoryMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/CoverType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Formatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Publication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/util/PublicationInputUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/qa/view/PublicationsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/course/javaqa/calculator/CalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-junit5-lab/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="24TCYtKiTfA8KpWuzSKIq4F39St" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16207455" />
+    <property name="project.structure.side.proportion" value="0.23772103" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CourseJavaQA\git\java-qa-automation\04-testng-lab\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.CalculatorTests">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="04-testng-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.javaqa.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course.javaqa.calculator" />
+      <option name="MAIN_CLASS_NAME" value="course.javaqa.calculator.CalculatorTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTests.givenTwoNumbers_whenMultiply_thenProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="04-testng-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.javaqa.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course.javaqa.calculator" />
+      <option name="MAIN_CLASS_NAME" value="course.javaqa.calculator.CalculatorTests" />
+      <option name="METHOD_NAME" value="givenTwoNumbers_whenMultiply_thenProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CalculatorTests" />
+        <item itemvalue="TestNG.CalculatorTests.givenTwoNumbers_whenMultiply_thenProduct" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebee0382-29df-4b40-9c8e-e46cd79ab7e8" name="Changes" comment="" />
+      <created>1643645251123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643645251123</updated>
+      <workItem from="1643645252350" duration="1837000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
