@@ -5,8 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/users-data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/users-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/javaqa/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/javaqa/gcd/Gcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/IdSequenceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/LongSequenceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/PersistentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/PersistentRepositoryFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/PersonRepositoryMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/RepositoryHashMapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/UserRepositoryHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/UserRepositoryMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/CoverType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Formatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Publication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/util/PublicationInputUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/view/PublicationsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/test/java/course/javaqa/calculator/CalculatorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
@@ -204,7 +236,7 @@
       <updated>1643040597183</updated>
       <workItem from="1643040599836" duration="9732000" />
       <workItem from="1643297869396" duration="10901000" />
-      <workItem from="1643640664831" duration="2607000" />
+      <workItem from="1643640664831" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -297,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643644134592</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="parameterized test with Junit 5 CSV file added">
+      <created>1643644861599</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643644861599</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

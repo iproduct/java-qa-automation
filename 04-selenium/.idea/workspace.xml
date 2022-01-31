@@ -5,18 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9297f3d-9554-4d99-bb0b-0109f8fc83b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenuim/ChromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenuim/FirstScriptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenuim/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/javaqa/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/javaqa/gcd/Gcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/IdSequenceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/LongSequenceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/PersistentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/PersistentRepositoryFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/PersonRepositoryMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/RepositoryHashMapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/UserRepositoryHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/dao/UserRepositoryMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/CoverType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Formatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Publication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/util/PublicationInputUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/main/java/course/qa/view/PublicationsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-testng-lab/src/test/java/course/javaqa/calculator/CalculatorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-junit5-lab/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643640289744</updated>
-      <workItem from="1643640290963" duration="1335000" />
+      <workItem from="1643640290963" duration="2180000" />
     </task>
     <servers />
   </component>
