@@ -52,6 +52,9 @@
                         <suiteXmlFile>
                             src\test\resources\test_suite.xml
                         </suiteXmlFile>
+                        <suiteXmlFile>
+                            src\test\resources\test_group_regression.xml
+                        </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

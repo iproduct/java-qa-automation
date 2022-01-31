@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suiteXmlFiles>
-    <suiteXmlFile>
-        src/test/resources/parametrized_test.xml
-    </suiteXmlFile>
-    <suiteXmlFile>
-        src/test/resources/registration_test.xml
-    </suiteXmlFile>
-</suiteXmlFiles>
+<suite name="suite">
+    <test name="test suite">
+        <classes>
+            <class name="course.javaqa.calculator.CalculatorTests" />
+            <class name="course.javaqa.calculator.ParameterizedTests" />
+        </classes>
+    </test>
+</suite>
