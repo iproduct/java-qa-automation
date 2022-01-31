@@ -52,7 +52,7 @@ public class RepositoryHashMapImplTestCsvSource {
     }
 
     @ParameterizedTest
-    @CsvFileSource(resources = "users-data.csv", numLinesToSkip = 1)
+    @CsvFileSource(resources = "/users-data.csv", numLinesToSkip = 1)
     public void givenValidUserFromCsvFile_whenCreate_thenShouldBeCreated(String name, int age, String username, String password) {
         // test
         User result = repository.create(new User(name, age, username, password));

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/users-data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +68,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CourseJavaQA\git\java-qa-automation\03-junit5-lab\src\main\java\course" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CourseJavaQA\git\java-qa-automation\03-junit5-lab\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="course.qa.dao" />
     </key>
@@ -73,7 +78,7 @@
       <recent name="course.qa.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryHashMapImplTestCsvSource">
+  <component name="RunManager" selected="JUnit.RepositoryHashMapImplTestCsvSource.givenValidUserFromCsvFile_whenCreate_thenShouldBeCreated">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -146,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryHashMapImplTest.assumptionThat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepositoryHashMapImplTestCsvSource.givenValidUserFromCsvFile_whenCreate_thenShouldBeCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="03-junit5-lab" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +160,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="course.qa.dao" />
-      <option name="MAIN_CLASS_NAME" value="course.qa.dao.RepositoryHashMapImplTest" />
-      <option name="METHOD_NAME" value="assumptionThat" />
+      <option name="MAIN_CLASS_NAME" value="course.qa.dao.RepositoryHashMapImplTestCsvSource" />
+      <option name="METHOD_NAME" value="givenValidUserFromCsvFile_whenCreate_thenShouldBeCreated(java.lang.String,int,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -181,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryHashMapImplTestCsvSource.givenValidUserFromCsvFile_whenCreate_thenShouldBeCreated" />
         <item itemvalue="JUnit.RepositoryHashMapImplTestCsvSource" />
         <item itemvalue="JUnit.GcdTest.given72andX_whenGcd_thenGcdEquals9" />
         <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" />
         <item itemvalue="JUnit.RepositoryHashMapImplTest" />
-        <item itemvalue="JUnit.RepositoryHashMapImplTest.assumptionThat" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +204,7 @@
       <updated>1643040597183</updated>
       <workItem from="1643040599836" duration="9732000" />
       <workItem from="1643297869396" duration="10901000" />
-      <workItem from="1643640664831" duration="1942000" />
+      <workItem from="1643640664831" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -285,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643643405819</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="parameterized test with Junit 5 CSV file added">
+      <created>1643644134592</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1643644134592</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +314,8 @@
     <MESSAGE value="create User test case added" />
     <MESSAGE value="AssertJ matchers demo added, assumptions demo added" />
     <MESSAGE value="parameterized test with Junit 5 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="parameterized test with Junit 5 added" />
+    <MESSAGE value="parameterized test with Junit 5 CSV file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="parameterized test with Junit 5 CSV file added" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
