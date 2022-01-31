@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../04-selenium/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/ChromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/FirstScriptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/course/qa/dao/RepositoryHashMapImplTestCsvSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +69,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="course.qa.dao" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="course.qa.dao" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.GcdTest.given72andX_whenGcd_thenGcdEquals9">
+  <component name="RunManager" selected="JUnit.RepositoryHashMapImplTestCsvSource">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -136,6 +130,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepositoryHashMapImplTestCsvSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-junit5-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.qa.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course.qa.dao" />
+      <option name="MAIN_CLASS_NAME" value="course.qa.dao.RepositoryHashMapImplTestCsvSource" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepositoryHashMapImplTest.assumptionThat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="03-junit5-lab" />
       <extension name="coverage">
@@ -147,23 +157,6 @@
       <option name="PACKAGE_NAME" value="course.qa.dao" />
       <option name="MAIN_CLASS_NAME" value="course.qa.dao.RepositoryHashMapImplTest" />
       <option name="METHOD_NAME" value="assumptionThat" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepositoryHashMapImplTest.givenValidMultipleUsersInRepository_whenFindAll_thenShouldReturnAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-junit5-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course.qa.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="course.qa.dao" />
-      <option name="MAIN_CLASS_NAME" value="course.qa.dao.RepositoryHashMapImplTest" />
-      <option name="METHOD_NAME" value="givenValidMultipleUsersInRepository_whenFindAll_thenShouldReturnAllUsers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -188,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryHashMapImplTestCsvSource" />
         <item itemvalue="JUnit.GcdTest.given72andX_whenGcd_thenGcdEquals9" />
         <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" />
         <item itemvalue="JUnit.RepositoryHashMapImplTest" />
         <item itemvalue="JUnit.RepositoryHashMapImplTest.assumptionThat" />
-        <item itemvalue="JUnit.RepositoryHashMapImplTest.givenValidMultipleUsersInRepository_whenFindAll_thenShouldReturnAllUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +199,7 @@
       <updated>1643040597183</updated>
       <workItem from="1643040599836" duration="9732000" />
       <workItem from="1643297869396" duration="10901000" />
-      <workItem from="1643640664831" duration="1225000" />
+      <workItem from="1643640664831" duration="1942000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -285,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643309251275</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="parameterized test with Junit 5 added">
+      <created>1643643405819</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1643643405819</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
