@@ -5,85 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9297f3d-9554-4d99-bb0b-0109f8fc83b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/messages_bg_BG.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/js/solid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/js/v4-shims.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/sprites/brands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/behance.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/bitbucket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/bitcoin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/creative-commons-pd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/dribbble.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/itunes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/jira.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/kickstarter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/linode.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/resolving.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/snapchat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/squarespace.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/superpowers.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/typo3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/brands/yandex.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/regular/dot-circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/regular/hand-spock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/regular/handshake.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/regular/sad-tear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/regular/user-circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/angle-double-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/ban.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/broadcast-tower.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/calendar-minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/chart-area.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/chevron-circle-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/clone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/cocktail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/comment-dots.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/comment-medical.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/donate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/drumstick-bite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/eye-slash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/file-import.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/file-video.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/folder.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/ghost.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/graduation-cap.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/grin-hearts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/grin-tongue-wink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/grin-tongue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/h-square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/hand-rock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/id-badge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/images.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/lock-open.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/long-arrow-alt-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/long-arrow-alt-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/microphone-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/microscope.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/motorcycle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/people-carry.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/receipt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/satellite-dish.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/save.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/sliders-h.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/smoking-ban.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/smoking.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/square-root-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/star-of-life.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/thermometer-half.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/thumbs-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/user-cog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/svgs/solid/x-ray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/static/font/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/tmp/robolearn_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenuim/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenuim/GenericTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-selenium-lab/src/test/java/selenium/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-selenium-lab/src/test/java/selenium/GenericTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +58,7 @@
     <property name="project.structure.side.proportion" value="0.23772103" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager" selected="JUnit.FirstScriptTest">
+  <component name="RunManager" selected="JUnit.GenericTest.testSubmitArticle">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -188,6 +114,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenericTest.testArticlesView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenuim.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenuim" />
+      <option name="MAIN_CLASS_NAME" value="selenuim.GenericTest" />
+      <option name="METHOD_NAME" value="testArticlesView(java.lang.Class)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericTest.testSubmitArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenuim.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenuim" />
+      <option name="MAIN_CLASS_NAME" value="selenuim.GenericTest" />
+      <option name="METHOD_NAME" value="testSubmitArticle(java.lang.Class)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -206,6 +166,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenericTest.testSubmitArticle" />
+        <item itemvalue="JUnit.GenericTest.testArticlesView" />
         <item itemvalue="JUnit.FirstScriptTest" />
         <item itemvalue="JUnit.GenericTest.test" />
         <item itemvalue="JUnit.ChromeTest" />
@@ -221,6 +183,8 @@
       <option name="presentableId" value="Default" />
       <updated>1643640289744</updated>
       <workItem from="1643640290963" duration="4017000" />
+      <workItem from="1643899693763" duration="3008000" />
+      <workItem from="1643904198227" duration="2315000" />
     </task>
     <servers />
   </component>
@@ -229,5 +193,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenuim/GenericTest.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
