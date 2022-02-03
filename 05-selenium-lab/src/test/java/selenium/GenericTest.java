@@ -87,11 +87,19 @@ public class GenericTest {
         // Exercise
         // Navigate to Url
         driver.get("http://localhost:8080/");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
+//        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
 
         // Store 'Gmail' anchor web element
-        WebElement linkAddArticle = driver.findElement(By.linkText("Add Article"));
+        List<WebElement> linksAddArticle = driver.findElements(By.linkText("Add Article"));
+        WebElement linkAddArticle;
+        if(linksAddArticle.size() == 0) { // open responsive navigation if 'Add Article' link not visible
+            WebElement btnNavbarToggler = driver.findElement(By.cssSelector("button.navbar-toggler"));
+            btnNavbarToggler.click();
+            linkAddArticle = driver.findElement(By.linkText("Add Article"));
+        }else {
+            linkAddArticle = linksAddArticle.get(0);
+        }
         linkAddArticle.click();
 //        Actions actionProvider = new Actions(driver);
         // Performs mouse move action onto the element
