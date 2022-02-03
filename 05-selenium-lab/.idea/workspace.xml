@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbd0f243-de98-416c-a977-77774dff7838" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -60,7 +59,7 @@
       <recent name="selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GenericTest.whenHomePageLoaded_thenTitleArticlesListAndLocationArticles">
+  <component name="RunManager" selected="JUnit.GenericTest.whenHomePageLoaded_thenClickOnAddArticleLinkAndAddNewArticle">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -84,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest.testArticlesView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericTest.whenHomePageLoaded_thenClickOnAddArticleLinkAndAddNewArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="05-selenium-lab" />
       <extension name="coverage">
         <pattern>
@@ -94,7 +93,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="selenium" />
       <option name="MAIN_CLASS_NAME" value="selenium.GenericTest" />
-      <option name="METHOD_NAME" value="testArticlesView(java.lang.Class)" />
+      <option name="METHOD_NAME" value="whenHomePageLoaded_thenClickOnAddArticleLinkAndAddNewArticle(java.lang.Class)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericTest.whenHomePageLoaded_thenH3IsArticlesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-selenium-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.GenericTest" />
+      <option name="METHOD_NAME" value="whenHomePageLoaded_thenH3IsArticlesList(java.lang.Class)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -135,22 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebdriverManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="05-selenium-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.WebdriverManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenericTest.whenHomePageLoaded_thenClickOnAddArticleLinkAndAddNewArticle" />
+        <item itemvalue="JUnit.GenericTest.whenHomePageLoaded_thenH3IsArticlesList" />
         <item itemvalue="JUnit.GenericTest.whenHomePageLoaded_thenTitleArticlesListAndLocationArticles" />
         <item itemvalue="JUnit.GenericTest.whenHomePageLoaded_thenTitleisArticlesList" />
         <item itemvalue="JUnit.GenericTest.test" />
-        <item itemvalue="JUnit.GenericTest.testArticlesView" />
-        <item itemvalue="JUnit.WebdriverManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,7 @@
       <updated>1643651566280</updated>
       <workItem from="1643651568698" duration="2811000" />
       <workItem from="1643899807837" duration="1025000" />
-      <workItem from="1643906857730" duration="1026000" />
+      <workItem from="1643906857730" duration="7080000" />
     </task>
     <task id="LOCAL-00001" summary="selenium dependencies added">
       <created>1643651699070</created>
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643653535588</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="location redirection tested">
+      <created>1643908214524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643908214524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,17 +227,23 @@
     <MESSAGE value="selenium dependencies added" />
     <MESSAGE value="webdriver manager test added" />
     <MESSAGE value="webdriver manager generic test added" />
-    <option name="LAST_COMMIT_MESSAGE" value="webdriver manager generic test added" />
+    <MESSAGE value="location redirection tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="location redirection tested" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/selenium/GenericTest.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="1" />
+          <line>99</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="link.getText()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
