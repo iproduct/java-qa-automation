@@ -187,7 +187,7 @@
       <workItem from="1643651568698" duration="2811000" />
       <workItem from="1643899807837" duration="1025000" />
       <workItem from="1643906857730" duration="7845000" />
-      <workItem from="1644248211916" duration="8783000" />
+      <workItem from="1644248211916" duration="9197000" />
     </task>
     <task id="LOCAL-00001" summary="selenium dependencies added">
       <created>1643651699070</created>
@@ -266,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644258657836</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Jenkinsfile added">
+      <created>1644259502864</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644259502864</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
