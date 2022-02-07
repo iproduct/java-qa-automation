@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbd0f243-de98-416c-a977-77774dff7838" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../03-junit5-lab/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/Articles Project.side" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/CreateNewArticleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-testng-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/templates/fragments/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/templates/fragments/foot.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +42,14 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="24TPMtvxKgGdvfFHMcKa27u0bMY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -58,14 +69,14 @@
       <recent name="selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GenericTest.whenHomePageLoaded_thenClickOnAddArticleLinkAndAddNewArticle">
+  <component name="RunManager" selected="JUnit.CreateNewArticleTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateNewArticleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="05-selenium-lab" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +85,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.GenericTest" />
-      <option name="METHOD_NAME" value="test(java.lang.Class)" />
+      <option name="MAIN_CLASS_NAME" value="selenium.CreateNewArticleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateNewArticleTest.createNewArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-selenium-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.CreateNewArticleTest" />
+      <option name="METHOD_NAME" value="createNewArticle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -133,23 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest.whenHomePageLoaded_thenTitleisArticlesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="05-selenium-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.GenericTest" />
-      <option name="METHOD_NAME" value="whenHomePageLoaded_thenTitleisArticlesList(java.lang.Class)" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -168,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateNewArticleTest" />
+        <item itemvalue="JUnit.CreateNewArticleTest.createNewArticle" />
+        <item itemvalue="JUnit.GenericTest.whenHomePageLoaded_thenTitleArticlesListAndLocationArticles" />
         <item itemvalue="JUnit.GenericTest.whenHomePageLoaded_thenClickOnAddArticleLinkAndAddNewArticle" />
         <item itemvalue="JUnit.GenericTest.whenHomePageLoaded_thenH3IsArticlesList" />
-        <item itemvalue="JUnit.GenericTest.whenHomePageLoaded_thenTitleArticlesListAndLocationArticles" />
-        <item itemvalue="JUnit.GenericTest.whenHomePageLoaded_thenTitleisArticlesList" />
-        <item itemvalue="JUnit.GenericTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +196,8 @@
       <updated>1643651566280</updated>
       <workItem from="1643651568698" duration="2811000" />
       <workItem from="1643899807837" duration="1025000" />
-      <workItem from="1643906857730" duration="7526000" />
+      <workItem from="1643906857730" duration="7845000" />
+      <workItem from="1644248211916" duration="6725000" />
     </task>
     <task id="LOCAL-00001" summary="selenium dependencies added">
       <created>1643651699070</created>
@@ -223,19 +234,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643915854901</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="responsive web design support by clicking .navbar-toggler button when window is small">
+      <created>1643916319632</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643916319632</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="selenium dependencies added" />
     <MESSAGE value="webdriver manager test added" />
     <MESSAGE value="webdriver manager generic test added" />
     <MESSAGE value="location redirection tested" />
     <MESSAGE value="maximizing window because otherwise 'Add Article' link is not shown because of responsive design (button is shown instead)" />
-    <option name="LAST_COMMIT_MESSAGE" value="maximizing window because otherwise 'Add Article' link is not shown because of responsive design (button is shown instead)" />
+    <MESSAGE value="responsive web design support by clicking .navbar-toggler button when window is small" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive web design support by clicking .navbar-toggler button when window is small" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

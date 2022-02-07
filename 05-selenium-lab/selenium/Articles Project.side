@@ -1,0 +1,185 @@
+{
+  "id": "009c6462-abef-47e8-94c9-cca24e8a3cf5",
+  "version": "2.0",
+  "name": "Articles Project",
+  "url": "http://localhost:8081",
+  "tests": [{
+    "id": "7cf850ed-a950-4323-83d8-9c922343f6eb",
+    "name": "Create New Article",
+    "commands": [{
+      "id": "c7b409d9-6ae2-43c6-b073-c5894e62e3b2",
+      "comment": "",
+      "command": "open",
+      "target": "/articles",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "558ce0fc-57c4-409a-b813-8ca64b50c3a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1722x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "150e2ac3-09f6-482f-ae3c-f5002d42d65a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add Article",
+      "targets": [
+        ["linkText=Add Article", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Add Article')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articles/article-form')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add Article')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcbd0074-4b14-417c-bb94-fee93b4264c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "518efafc-bd4b-49f9-8df1-b1e6b1571b86",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Selenium IDE"
+    }, {
+      "id": "227d7c51-3d9c-4979-996b-331d784a34a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["name=content", "name"],
+        ["css=#content", "css:finder"],
+        ["xpath=//input[@id='content']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d436a09c-96ea-4181-9974-e0313f4ab140",
+      "comment": "",
+      "command": "type",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["name=content", "name"],
+        ["css=#content", "css:finder"],
+        ["xpath=//input[@id='content']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Selenium IDE is easy to use"
+    }, {
+      "id": "2b73cac6-67b5-461b-bf63-f9510c8b4c70",
+      "comment": "",
+      "command": "click",
+      "target": "id=file",
+      "targets": [
+        ["id=file", "id"],
+        ["name=file", "name"],
+        ["css=#file", "css:finder"],
+        ["xpath=//input[@id='file']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21d67d12-5ac5-4260-86b2-27c3653b8497",
+      "comment": "",
+      "command": "type",
+      "target": "id=file",
+      "targets": [
+        ["id=file", "id"],
+        ["name=file", "name"],
+        ["css=#file", "css:finder"],
+        ["xpath=//input[@id='file']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "C:\\Users\\office27\\Pictures\\java2days.png"
+    }, {
+      "id": "bc1f75ec-4123-44c9-b062-579144ab6f1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5339c91-28ee-4db1-a3e2-97c5df8daac9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[last()]/td[6]/a/img",
+      "targets": [
+        ["css=tr:nth-child(8) .img-thumbnail", "css:finder"],
+        ["xpath=//tr[7]/td[6]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ce1af59-eb21-4a58-8dab-a237f9d39031",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=tr:last-child .img-thumbnail",
+      "targets": [
+        ["css=tr:nth-child(8) .img-thumbnail", "css:finder"],
+        ["xpath=//tr[7]/td[6]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee847df1-6b4b-4e9c-9dbb-a01f58111afc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=tr:last-child .img-thumbnail",
+      "targets": [
+        ["css=tr:nth-child(8) .img-thumbnail", "css:finder"],
+        ["xpath=//tr[7]/td[6]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e975843d-7906-46a5-b92b-c790057715a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-secondary",
+      "targets": [
+        ["css=.btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='exampleModal']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eb68fef4-2714-492f-95e5-839ca2e03065",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7cf850ed-a950-4323-83d8-9c922343f6eb"]
+  }],
+  "urls": ["http://localhost:8081/"],
+  "plugins": []
+}
