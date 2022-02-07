@@ -187,7 +187,7 @@
       <workItem from="1643651568698" duration="2811000" />
       <workItem from="1643899807837" duration="1025000" />
       <workItem from="1643906857730" duration="7845000" />
-      <workItem from="1644248211916" duration="9926000" />
+      <workItem from="1644248211916" duration="10549000" />
     </task>
     <task id="LOCAL-00001" summary="selenium dependencies added">
       <created>1643651699070</created>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644260048427</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Jenkinsfile modified">
+      <created>1644261480073</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644261480073</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +310,8 @@
     <MESSAGE value="responsive web design support by clicking .navbar-toggler button when window is small" />
     <MESSAGE value="file upoload demo in Chrome and Mozilla selenium tests" />
     <MESSAGE value="Jenkinsfile added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkinsfile added" />
+    <MESSAGE value="Jenkinsfile modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jenkinsfile modified" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
