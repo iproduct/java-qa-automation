@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbd0f243-de98-416c-a977-77774dff7838" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../03-junit5-lab/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/Articles Project.side" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/CreateNewArticleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-testng-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-testng-lab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/GenericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/templates/fragments/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/../07-webmvc-forms-files-thymeleaf/src/main/resources/templates/fragments/foot.html" afterDir="false" />
-    </list>
+    <list default="true" id="fbd0f243-de98-416c-a977-77774dff7838" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +185,7 @@
       <workItem from="1643651568698" duration="2811000" />
       <workItem from="1643899807837" duration="1025000" />
       <workItem from="1643906857730" duration="7845000" />
-      <workItem from="1644248211916" duration="6725000" />
+      <workItem from="1644248211916" duration="7027000" />
     </task>
     <task id="LOCAL-00001" summary="selenium dependencies added">
       <created>1643651699070</created>
@@ -241,7 +229,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643916319632</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="responsive web design support by clicking .navbar-toggler button when window is small">
+      <created>1644255971241</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644255971241</updated>
+    </task>
+    <task id="LOCAL-00008" summary="file upoload demo in Chrome and Mozilla selenium tests">
+      <created>1644256027489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644256027489</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Jenkinsfile added">
+      <created>1644256059409</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644256059409</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +264,9 @@
     <MESSAGE value="location redirection tested" />
     <MESSAGE value="maximizing window because otherwise 'Add Article' link is not shown because of responsive design (button is shown instead)" />
     <MESSAGE value="responsive web design support by clicking .navbar-toggler button when window is small" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive web design support by clicking .navbar-toggler button when window is small" />
+    <MESSAGE value="file upoload demo in Chrome and Mozilla selenium tests" />
+    <MESSAGE value="Jenkinsfile added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jenkinsfile added" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
