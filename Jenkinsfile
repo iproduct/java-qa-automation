@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                bat 'mvn --version'
+                bat 'mvn package'
             }
         }
     }
