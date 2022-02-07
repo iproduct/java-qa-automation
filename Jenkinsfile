@@ -7,10 +7,6 @@ pipeline {
             additionalBuildArgs  '--build-arg version=1.0.2'
             args '-v C:/ProgramData/Jenkins/.jenkins/workspace/My-Pipeline_main/:/workspace/My-Pipeline_main/ -v C:/ProgramData/Jenkins/.jenkins/workspace/My-Pipeline_main@tmp/:/workspace/My-Pipeline_main@tmp/'
         } 
-        docker { 
-            image 'maven:3.8.4-openjdk-11-slim' 
-            args '-w /root/.jenkins/workspace/My-Pipeline_main/ -v C:/ProgramData/Jenkins/.jenkins/workspace/My-Pipeline_main/:/root/.jenkins/workspace/My-Pipeline_main/ -v C:/ProgramData/Jenkins/.jenkins/workspace/My-Pipeline_main@tmp/:/root/.jenkins/workspace/My-Pipeline_main@tmp/' 
-        } 
     }
     stages {
         stage('build') {
