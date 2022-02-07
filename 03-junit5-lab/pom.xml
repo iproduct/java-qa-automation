@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>course.javaqa</groupId>
-    <artifactId>03-junit4-lab</artifactId>
+    <artifactId>03-junit5-lab</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -50,8 +50,8 @@
     </dependencies>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
 </project>

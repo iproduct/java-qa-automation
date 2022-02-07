@@ -78,25 +78,41 @@
       <recent name="course.qa.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryHashMapImplTestCsvSource.givenValidUserFromCsvFile_whenCreate_thenShouldBeCreated">
+  <component name="RunManager" selected="JUnit.GcdTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArithmeticUtilityTests.ArithmeticUtilityTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="03-junit5-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course.javaqa.calculator.*" />
+          <option name="PATTERN" value="course.javaqa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="course.javaqa.calculator" />
-      <option name="MAIN_CLASS_NAME" value="course.javaqa.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" />
+      <option name="PACKAGE_NAME" value="course.javaqa" />
+      <option name="MAIN_CLASS_NAME" value="course.javaqa.ArithmeticUtilityTests" />
+      <option name="METHOD_NAME" value="ArithmeticUtilityTests" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GcdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03-junit5-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.javaqa.gcd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="course.javaqa.gcd" />
+      <option name="MAIN_CLASS_NAME" value="course.javaqa.gcd.GcdTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,22 +130,6 @@
       <option name="MAIN_CLASS_NAME" value="course.javaqa.gcd.GcdTest" />
       <option name="METHOD_NAME" value="given72andX_whenGcd_thenGcdEquals9(int)" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepositoryHashMapImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-junit5-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course.qa.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="course.qa.dao" />
-      <option name="MAIN_CLASS_NAME" value="course.qa.dao.RepositoryHashMapImplTest" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GcdTest" />
+        <item itemvalue="JUnit.ArithmeticUtilityTests.ArithmeticUtilityTests" />
         <item itemvalue="JUnit.RepositoryHashMapImplTestCsvSource.givenValidUserFromCsvFile_whenCreate_thenShouldBeCreated" />
         <item itemvalue="JUnit.RepositoryHashMapImplTestCsvSource" />
         <item itemvalue="JUnit.GcdTest.given72andX_whenGcd_thenGcdEquals9" />
-        <item itemvalue="JUnit.CalculatorTest.givenXandZeroDivider_whenDivide_thenArithmeticExceptionAssertion" />
-        <item itemvalue="JUnit.RepositoryHashMapImplTest" />
       </list>
     </recent_temporary>
   </component>
