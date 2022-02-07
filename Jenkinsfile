@@ -4,9 +4,10 @@ pipeline {
         maven 'apache-maven-3.8.4'
     }
     stages {
-        stage('Example') {
+        stage('Build and test') {
             steps {
                 bat 'cd 03-junit5-lab\nmvn package test'
+                bat 'cd 05-selenium-lab\nmvn package test'
             }
         }
     }

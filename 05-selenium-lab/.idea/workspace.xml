@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbd0f243-de98-416c-a977-77774dff7838" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../03-junit5-lab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
