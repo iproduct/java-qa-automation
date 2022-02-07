@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-selenium-lab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-selenium-lab/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +203,7 @@
       <workItem from="1643297869396" duration="10901000" />
       <workItem from="1643640664831" duration="5439000" />
       <workItem from="1644247565018" duration="575000" />
+      <workItem from="1644270413512" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
@@ -305,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643644861599</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="java version -&gt; 11">
+      <created>1644270542066</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644270542066</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +328,8 @@
     <MESSAGE value="AssertJ matchers demo added, assumptions demo added" />
     <MESSAGE value="parameterized test with Junit 5 added" />
     <MESSAGE value="parameterized test with Junit 5 CSV file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="parameterized test with Junit 5 CSV file added" />
+    <MESSAGE value="java version -&gt; 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="java version -&gt; 11" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

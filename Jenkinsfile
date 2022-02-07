@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                bat 'cd 03-junit5-lab\nmvn package'
+                bat 'cd 03-junit5-lab\nmvn package test'
             }
         }
     }
