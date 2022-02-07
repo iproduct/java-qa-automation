@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9297f3d-9554-4d99-bb0b-0109f8fc83b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenuim/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenuim/GenericTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-selenium-lab/src/test/java/selenium/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-selenium-lab/src/test/java/selenium/GenericTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +182,8 @@
       <updated>1643640289744</updated>
       <workItem from="1643640290963" duration="4017000" />
       <workItem from="1643899693763" duration="3008000" />
-      <workItem from="1643904198227" duration="2315000" />
+      <workItem from="1643904198227" duration="2357000" />
+      <workItem from="1644248155679" duration="646000" />
     </task>
     <servers />
   </component>
@@ -199,7 +198,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/selenuim/GenericTest.java</url>
-          <line>83</line>
+          <line>67</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

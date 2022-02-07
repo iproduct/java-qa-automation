@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebee0382-29df-4b40-9c8e-e46cd79ab7e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../03-junit5-lab/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-junit5-lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/src/test/java/selenuim/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643645251123</updated>
       <workItem from="1643645252350" duration="5821000" />
+      <workItem from="1644248165188" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="testng project initial commit">
       <created>1643647140260</created>
