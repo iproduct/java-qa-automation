@@ -3,7 +3,9 @@ package course.qa.simple.web;
 import course.qa.simple.dao.ArticleRepository;
 import course.qa.simple.model.Article;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.util.List;
 
@@ -25,8 +27,12 @@ public class ArticleController {
     }
 
     @PostMapping
-    public Article addArticle(@RequestBody Article article) {
-        return articleRepo.insert(article);
+    public ResponseEntity<Article> addArticle(@RequestBody Article article) {
+        Article created = articleRepo.insert(article);
+        return ResponseEntity.created(
+                ServletUriComponentsBuilder.fromCurrentRequest().pathSegment("{id}")
+                        .buildAndExpand(created.getId()).toUri())
+                    .body(created);
     }
 
 
