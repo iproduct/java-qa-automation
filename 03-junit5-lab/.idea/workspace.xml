@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../08-simple-api/src/main/java/course/qa/simple/dao/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-simple-api/src/main/java/course/qa/simple/model/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08-simple-api/src/main/java/course/qa/simple/web/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-simple-api/src/main/java/course/qa/simple/web/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../08-simple-api/src/main/java/course/qa/simple/web/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-simple-api/src/test/java/course/qa/simple/SimpleApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../08-simple-api/src/test/java/course/qa/simple/SimpleApiApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
