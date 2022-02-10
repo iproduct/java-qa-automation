@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="287afacc-4191-4a7e-a1a4-029ad392ef2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-selenium-lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-simple-api/src/main/java/course/qa/simple/dao/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-simple-api/src/main/java/course/qa/simple/model/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-simple-api/src/main/java/course/qa/simple/web/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-selenium/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +207,8 @@
       <workItem from="1643297869396" duration="10901000" />
       <workItem from="1643640664831" duration="5439000" />
       <workItem from="1644247565018" duration="575000" />
-      <workItem from="1644270413512" duration="2008000" />
+      <workItem from="1644270413512" duration="2024000" />
+      <workItem from="1644508512964" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator unit tests added">
       <created>1643047885988</created>
